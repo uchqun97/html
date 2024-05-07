@@ -1,0 +1,120 @@
+*{
+    margin:0;
+}
+body {
+    background-color: #040C10;
+}
+.navbar ul li{
+    display: inline;
+    list-style-type:none;
+}
+.navbar ul li{
+    color:#fff;
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: sans-serif;
+
+}
+.navbar ul {
+    margin-left:  55%;
+    margin-top: 30px;
+
+}
+.navbar ul li:first-child {
+    color:#01F28D;
+    text-decoration: underline;
+
+}
+.navbar .callbtn{
+    padding:8px 12 px;
+    background-color: #01F28D;
+    color:#040C10;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    border:0 solid;
+}
+.logo h3 {
+    position: absolute;
+    color: #01F28D;
+    font-size: 25px;
+    font-size: serif;
+    top:4%;
+    left:15%;
+}
+.logo .logoimg{
+    position: absolute;
+    top:2%;
+    left:11%;
+    width: 3%;
+
+}
+.info-text h1 {
+    color:#fff;
+    margin-top: 13%;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
+.info-text span{
+    color:#01F28D;
+}
+.info-text p{
+    margin-top: 10px;
+    color:#fff;
+    text-align: center;
+    font-family: serif;
+    font-size: 22px;
+
+}
+.info-input{
+    margin-top: 40px;
+    text-align: center;
+}
+.info-input input{
+    padding:10px 70px;
+    border-radius:30px;
+    border:0 solid;
+
+}
+.info-input input::placeholder{
+    font-size: 15px;
+}
+.info-input button {
+    padding:8px 12 px;
+    background-color: #01F28D;
+    color:#040C10;
+    font-size: 18px;
+    border-radius: 30px;
+    border:0 solid;
+}
+.rate-star p{
+    margin-top: 10px;
+    color:#fff;
+    text-align: center;
+}
+.rate-star i{
+    color:gold;
+}
+.footer ul{
+   display:flex;
+   color: white;
+   text-align: center;
+   margin-top:8%;
+   margin-left: 25%;
+}
+
+.footer ul li{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 60px ;
+}
+.footer ul li i {
+    color:#01F28D;
+    font-size:35px;
+    border:20px solid #003128;
+    border-radius: 50%;
+    margin-right: 40px;
+}
